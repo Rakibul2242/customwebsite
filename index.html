@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Name</title>
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <a class="logo" href="index.html">Complany Name</a>
+    <div class="nav-items">
+      <a href="index.html">Home</a>
+      <a href="post.html">Post</a>
+      <a href="archive.html">Archive</a>
+      <a href="contact.html">Contract</a>
+    </div>
+  </header>
+
+  <!--Cookie banner - id's are used in JS file-->
+  <div id='cookieBanner'>
+    <!--Container-->
+    <div class="cookie">
+      <!--wrapper-->
+      <div>
+        <img src="assets/images/cookie.png">
+      </div>
+      <!--wrapper-->
+      <div class="cookie-details">
+        <h3>Mmmm....cookies!</h3>
+
+        <p>We use cookies to enhance your browsing experience, personalise your content and to analyze our traffic. You
+          can choose to<a class="color-blue" id='rejectBtn' href="#">reject</a>these cookies<br>or<a class="color-blue"
+            id='customiseBtn' href="#">customise</a>them. You can read more in our <a class="color-blue" href='#'>cookie
+            policy</a></p>
+        <!--wrapper-->
+        <div id='cookieOptions' style='display:none'>
+          <!--Group-->
+          <div>
+            <input type="checkbox" id="functional" checked disabled>
+            <label>Functional cookies</label>
+            <label>These cookies are essential for the site to work and to keep you safe. You can not opt out of
+              these.</label>
+          </div>
+          <!--Group-->
+          <div>
+            <input type="checkbox" id="personalisation">
+            <label>Personalisation cookies</label>
+            <label>We use our own cookies to personalise your browsing experience. We do not share this information with
+              any 3rd parties</label>
+          </div>
+          <!--Group-->
+          <div>
+            <input type="checkbox" id="analytics">
+            <label>Analytics cookies</label>
+            <label>Analytics cookies help us understand site usage and identify where improvements can be made</label>
+          </div>
+          <!--Group-->
+          <div>
+            <input type="checkbox" id="advertising" disabled>
+            <label>Advertising cookies</label>
+            <label>Some sites use advertising cookies that use data about you from across the web to show personalised
+              ads. We do not use any of these cookies.</label>
+          </div>
+          <!--Group-->
+          <div>
+            <a id='acceptAllBtn' class='accept-btn' href="#">Accept all</a>
+            <a id='selectedBtn' href="#">Accept selected options</a>
+          </div>
+        </div>
+
+        <a id='acceptBtn' class='accept-btn' href="#">Accept</a>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!--Hero section-->
+  <section>
+    <!--div to add overlay to section-->
+    <div class="first-section">
+      <!--section container-->
+      <div>
+        <!--section content wrapper-->
+        <div>
+          <!--element wrapper-->
+          <div>
+            <h1>Grow your brand on autopilot</h1>
+          </div>
+          <!--element wrapper-->
+          <div>
+            <img class="img img1" src="assets/images/image1.jpg" alt="primary_image" title="primary_image">
+          </div>
+          <!--element wrapper-->
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+          <!--element wrapper-->
+          <div class="btn-div">
+            <a href="cta_link">My main cta</a>
+            <a href="cta_link">My other cta</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Triple column content block-->
+  <section>
+    <!--div to add overlay to section-->
+    <div>
+      <!--section container-->
+      <div>
+        <!--section content wrapper-->
+        <div class="second-section">
+          <h2>Highlight your three biggest benefits to users</h2>
+          <p>To effectively highlight your three biggest benefits to users,
+            start by identifying what these key benefits are - these should be unique selling points that set you apart
+            from competitors.</p>
+
+          <!--group-->
+          <div class="group">
+            <img class="img" src="assets/images/image2.jpg" alt='users in a target signifying know your target audience'
+              title='Know your audience image'>
+            <div class="sub-group">
+              <h3>Know Your Audience</h3>
+              <p>Understanding your target audience&#039;s needs and desires is the first step in writing compelling
+                benefits. Tailor your benefits to address these specific needs, creating a direct connection with your
+                visitors.</p>
+            </div>
+          </div>
+
+          <!--group-->
+          <div class="group group-2">
+            <img class="img" src="assets/images/image3.jpg" alt='Focus on solutions' title='Focus on solutions'>
+            <div class="sub-group">
+              <h3>Focus on Solutions</h3>
+              <p>Instead of only listing features of your product or service, focus on how these features provide
+                solutions to your audience&#039;s problems. Benefits should clearly communicate the positive outcomes
+                your visitors can expect.</p>
+            </div>
+          </div>
+
+          <!--group-->
+          <div class="group">
+            <img class="img" src="assets/images/image4.jpg" alt='Man using a chalkboard to explain his point'
+              title='keep it concise'>
+            <div class="sub-group">
+              <h3>Keep It Concise</h3>
+              <p>Your benefits should be short, clear, and easy to understand. Avoid jargon and complex language;
+                simplicity often has the most impact.</p>
+            </div>
+          </div>
+
+          <!--element wrapper-->
+          <div>
+            <a class="viewmore" href="viewmore">View more</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--2 column content block with image in left column-->
+  <section>
+    <!--div to add overlay to section-->
+    <div>
+      <!--section container-->
+      <div>
+        <!--section content wrapper-->
+        <div class="third-section">
+
+          <!--column-->
+          <div>
+            <img class="img" src="assets/images/image5.jpg" alt='connect with your audience'
+              title='connect with your audience'>
+          </div>
+
+          <!--column-->
+          <div class="column-details">
+            <h3>Resonates with Your Audience by speaking their language</h3>
+
+            <p>Writing effective website copy requires a balance of creativity and strategic thinking. The first step is
+              understanding your audience. This is crucial because your language, tone, and content should be tailored
+              to meet their needs and interests. Use language that resonates with them and provides solutions to their
+              problems. You need to make sure your copy is easy to read and digest. Break up your content into short
+              paragraphs and use subheadings, bullet points, or numbered lists to make it more scannable.</p>
+
+
+
+
+            <a class="viewmore" href="view more">View more</a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--2 column content block with image in right column-->
+  <section>
+    <!--div to add overlay to section-->
+    <div>
+      <!--section container-->
+      <div>
+        <!--section content wrapper-->
+        <div>
+
+          <!--column-->
+          <div>
+            <img class="img" src="assets/images/image6.jpg" alt='show the benefits of your service'
+              title='show the benefits of your service'>
+          </div>
+
+          <!--column-->
+          <div class="column-details">
+            <h3>Highlight What Really Matters to your customers</h3>
+
+            <p>The second key aspect of writing good website copy is focusing on benefits over features. While features
+              are important, your audience wants to know how your product or service can benefit them. Therefore, turn
+              your features into benefits by explaining how they solve a problem or make life easier for your audience.
+              Also, remember to include a clear call-to-action (CTA) in your copy. A CTA guides your audience on what to
+              do next, whether that&#039;s signing up for a newsletter, making a purchase, or downloading a resource.
+            </p>
+
+            <a class="viewmore" href="viewmore">View more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Video section-->
+  <section>
+    <!--div to add overlay to section-->
+    <div>
+      <!--section container-->
+      <div>
+        <!--section content wrapper-->
+        <div class="fourth-section">
+
+          <div class="column-details">
+
+            <h2>Check out our latest video</h2>
+            <p>This video is totally awesome and should make you laugh!</p>
+            <div class="pb50">
+              <a class="viewmore" href="viewmore">View more</a>
+            </div>
+
+            <!-- wrapper for video preview and video. Page loads with preview image and JS launches iframe on click
+            iframe can have class added with JS and styled accordingly-->
+            <div class="video-container">
+              <div id='embed-youtube' class="embed-youtube" data-video-id="SngGNgDwy5U">
+                <!-- The preview button that will contain the Play icon -->
+                <div class="embed-youtube-play"><i class="icofont-ui-play ply-btn"></i></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!--3 column Featured posts section-->
+  <section>
+    <!--div to add overlay to section-->
+    <div>
+      <!--section container-->
+      <div class="section5">
+        <!--section content wrapper-->
+        <div>
+
+          <h2>Check out our latest events</h2>
+
+          <p>Having a &#039;Latest Posts&#039; section showcases your
+            brand&#039;s active presence and commitment to providing fresh, relevant information, enhancing your
+            credibility and improving SEO rankings.</p>
+
+          <div class="pb50">
+            <a class="viewmore" href="viewmore">View all</a>
+          </div>
+        </div>
+
+        <!--Column wrapper-->
+        <div class="allpost">
+
+          <!--group-->
+          <div class="post">
+            <!--image wrapper-->
+            <div class="post-img">
+              <a href="#">
+                <img src="assets/images/image7.jpg" alt="" title="">
+              </a>
+            </div>
+            <!--meta content wrapper-->
+            <div>
+              <div class="post-details">
+                <div>
+                  <p>30</p>
+                  <p>Jul</p>
+                </div>
+                <p>Remote (Zoom)</p>
+                <p>19:00</p>
+              </div>
+            </div>
+            <!--group-wrapper-->
+            <div class="zoombtn">
+              <a href="">
+                <h3>zoom event</h3>
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus, nisl eu aliquam vestibulum, elit
+                purus eleifend sapien, eu malesuada arcu lacus nec eros.</p>
+            </div>
+          </div>
+
+          <!--group-->
+          <div class="post">
+            <!--image wrapper-->
+            <div class="post-img">
+              <a href="#">
+                <img src="assets/images/image10.jpg" alt="" title="">
+              </a>
+            </div>
+            <!--meta content wrapper-->
+            <div>
+              <div class="post-details">
+                <div>
+                  <p>04</p>
+                  <p>Aug</p>
+                </div>
+                <p>Remote (Zoom)</p>
+                <p>19:00</p>
+              </div>
+            </div>
+            <!--group-wrapper-->
+            <div class="zoombtn">
+              <a href="">
+                <h3>zoom event</h3>
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus, nisl eu aliquam vestibulum, elit
+                purus eleifend sapien, eu malesuada arcu lacus nec eros.</p>
+            </div>
+          </div>
+
+          <!--group-->
+          <div class="post">
+            <!--image wrapper-->
+            <div class="post-img">
+              <a href="#">
+                <img src="assets/images/image11.jpg" alt="" title="">
+              </a>
+            </div>
+            <!--meta content wrapper-->
+            <div>
+              <div class="post-details">
+                <div>
+                  <p>04</p>
+                  <p>Aug</p>
+                </div>
+                <p>Remote (Zoom)</p>
+                <p>19:00</p>
+              </div>
+            </div>
+            <!--group-wrapper-->
+            <div class="zoombtn">
+              <a href="">
+                <h3>zoom event</h3>
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus, nisl eu aliquam vestibulum, elit
+                purus eleifend sapien, eu malesuada arcu lacus nec eros.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Testimonials section ** No carasol **-->
+  <section>
+    <!--div to add overlay to section-->
+    <div>
+      <!--section container-->
+      <div>
+        <!--section content wrapper-->
+        <div class="section6">
+          <!--group-->
+          <div>
+            <h2>significantly increase desire with testimonials</h2>
+            <p>Testimonials act as social proof, showcasing real-life success stories
+              that potential customers can relate to, thereby enhancing trust and driving their desire to experience
+              similar results.</p>
+            <div>
+              <a class="viewmore" href="viewmore">View more</a>
+            </div>
+          </div>
+          <!--group-->
+          <div>
+            <i class="icofont-quote-left icofont-2x"></i>
+            <p class="bold">CEO</p>
+            <p>I absolutely know Nikki’s phenomenal coaching style and her steady commitment
+              to my goal is the reason I am living happily as ME today! The transformation was a success and I have
+              tools to continue my journey, without the 50 gallon hefty trash bags I was hauling. There isn’t anything
+              more valuable in our lives than our ability to love ourselves so we can be full &amp; loving to others.
+              Nikki is the best personal investment I have ever made in 42 years. I’ll be paying it forward for all of
+              my days and am eternally grateful!</p>
+            <p class="bold">Jennifer A.</p>
+          </div>
+          <!--group-->
+          <div>
+            <i class="icofont-quote-left icofont-2x"></i>
+            <p></p>
+            <p>I am growing at lightning speed and actively creating a life that feels
+              meaningful and purposeful. The tools she provides me are ones I will have for life, and my results have
+              exceeded my expectations. If you are looking for a coach to help you unlock your fullest potential, look
+              no further. Recommend unequivocally.</p>
+            <p class="bold">Reilly B</p>
+          </div>
+          <!--group-->
+          <div>
+            <i class="icofont-quote-left icofont-2x"></i>
+            <p class="bold">CEO</p>
+            <p>I decided to hire Nikki to work on the root of my problems, and it has
+              completely changed my life...I highly recommend working with her!</p>
+            <p class="bold">Hillary Mason</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Call to action section-->
+  <section>
+    <!--section container-->
+    <div>
+      <!--section content wrapper-->
+      <div>
+        <h2>Ready to Lead? Identify Your Leadership Style with Our Quiz Today!</h2>
+        <p>
+          This quick-fire, multi-choice quiz is designed to help you identify your distinctive leadership style, laying
+          the groundwork for your further growth and development.
+        </p>
+        <!--form wrapper-->
+        <div class="form">
+          <form action="" method="post">
+            <!--input group-->
+            <div class="form-email">
+              <label>Email</label>
+              <input type="email" name="email">
+            </div>
+            <!--input group-->
+            <div class="form-name">
+              <label>Name</label>
+              <input type="text" name="email">
+            </div>
+            <!--input group-->
+            <div class="form-submit">
+              <input type="submit" value="start quiz">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--FAQ section-->
+  <section>
+    <!--div to add overlay to section-->
+    <div>
+      <!--section container-->
+      <div>
+        <!--section content wrapper-->
+        <div>
+          <!--group-->
+          <div>
+            <h2>This section is used to display FAQ&#039;s</h2>
+            <p>This is great for google&#039;s search algorithms so make sure you use
+              the question space wisey</p>
+            <div>
+              <a class="viewmore" href="view more">view more</a>
+            </div>
+
+          </div>
+          <!--faq container-->
+          <div>
+            <!--faq wrapper-->
+            <div class="faq-wrapper">
+              <!--classes and id's are used in JS to reveal the faq answer dropdown-->
+              <!--group-->
+              <div id='faq-div-0' class="faq-dropdown">
+                <div onclick="toggleFaq('0')" class="single-faq">
+                  <h4 class='faq-question'>How frequently are the coaching sessions held, and what is the duration of
+                    each session?</h4>
+                  <i id='faqCaretDown-0' class="icofont-caret-down"></i>
+                  <i id='faqCaretUp-0' style='display:none' class="icofont-caret-up"></i>
+                </div>
+                <p class='faq-answer' id='faq-answer-0' style='display:none'>Our program is focused on amplifying
+                  leadership skills to empower women to shatter the glass ceiling and thrive in their careers.</p>
+              </div>
+              <!--group-->
+              <div id='faq-div-1' class="faq-dropdown">
+                <div onclick="toggleFaq('1')" class="single-faq">
+                  <h4 class='faq-question'>Can you explain how the Neuro-Linguistic Programming (NLP) and Mental and
+                    Emotional Release (MER) techniques are used in the coaching sessions?</h4>
+                  <i id='faqCaretDown-1' class="icofont-caret-down"></i>
+                  <i id='faqCaretUp-1' style='display:none' class="icofont-caret-up"></i>
+                </div>
+                <p class='faq-answer' id='faq-answer-1' style='display:none'>By leveraging advanced techniques like NLP
+                  and MER, we aim to identify and modify behavioral patterns, effectively &#039;reprogramming&#039; your
+                  subconscious to align with your leadership goals.</p>
+              </div>
+              <!--group-->
+              <div id='faq-div-2' class="faq-dropdown">
+                <div onclick="toggleFaq('2')" class="single-faq">
+                  <h4 class='faq-question'>Why are the coaching sessions conducted in a group setting? What benefits
+                    does this approach offer?</h4>
+                  <i id='faqCaretDown-2' class="icofont-caret-down"></i>
+                  <i id='faqCaretUp-2' style='display:none' class="icofont-caret-up"></i>
+                </div>
+                <p class='faq-answer' id='faq-answer-2' style='display:none'>Group sessions offer a platform for shared
+                  experiences and collective learning, enriching the overall coaching process and fostering a supportive
+                  environment.</p>
+              </div>
+              <!--group-->
+              <div id='faq-div-3' class="faq-dropdown">
+                <div onclick="toggleFaq('3')" class="single-faq">
+                  <h4 class='faq-question'>How long does it take to see noticeable changes in my leadership style after
+                    joining the program?</h4>
+                  <i id='faqCaretDown-3' class="icofont-caret-down"></i>
+                  <i id='faqCaretUp-3' style='display:none' class="icofont-caret-up"></i>
+                </div>
+                <p class='faq-answer' id='faq-answer-3' style='display:none'>The time frame for noticeable changes can
+                  vary per individual, but rest assured, you will experience positive transformations.</p>
+              </div>
+              <!--group-->
+              <div id='faq-div-4' class="faq-dropdown">
+                <div onclick="toggleFaq('4')" class="single-faq">
+                  <h4 class='faq-question'>Are there any prerequisites or qualifications needed to join this
+                    transformational coaching program?</h4>
+                  <i id='faqCaretDown-4' class="icofont-caret-down"></i>
+                  <i id='faqCaretUp-4' style='display:none' class="icofont-caret-up"></i>
+                </div>
+                <p class='faq-answer' id='faq-answer-4' style='display:none'>There are no specific qualifications
+                  required to join. The only prerequisites are a full commitment to the coaching process and respect for
+                  all fellow participants.</p>
+              </div>
+              <!--group-->
+              <div id='faq-div-5' class="faq-dropdown">
+                <div onclick="toggleFaq('5')" class="single-faq">
+                  <h4 class='faq-question'>How frequently are the coaching sessions held, and what is the duration of
+                    each session?</h4>
+                  <i id='faqCaretDown-5' class="icofont-caret-down"></i>
+                  <i id='faqCaretUp-5' style='display:none' class="icofont-caret-up"></i>
+                </div>
+                <p class='faq-answer' id='faq-answer-5' style='display:none'>We conduct a one-hour Zoom session every
+                  week as part of the coaching program.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Newsletter sign up-->
+  <section>
+    <!--div to add overlay to section-->
+    <div>
+      <!--section container-->
+      <div>
+        <!--section content wrapper-->
+        <div>
+
+          <div>
+
+            <div class="feedback">
+              <h2>Psst....want freebies?</h2>
+              <p>
+                Sign up to our newsletter to get the latest updates, offers and freebies!
+              </p>
+              <!--form wrapper-->
+              <div class="feedback-form">
+                <form action="" method="POST">
+                  <input name="email" placeholder="Email address" type="email">
+                  <input type="hidden" name='method' value='newsletter'>
+                  <button>Send me goodies</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="app.js"></script>
+  <!--footer starts from here-->
+  <footer class="footer">
+    <div>
+      <div class="footer-section"">
+        <div>
+          <h5 class=" font-20 col-white">Find us</h5>
+        <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+          been the industry's standard dummy text ever since the 1500s</p>
+        <p><i class="fa fa-location-arrow"></i> 12 Some street, Somewhere, NA </p>
+        <p><i class="fa fa-phone"></i> +00-0123456789 </p>
+        <p><i class="fa fa fa-envelope"></i> email@emailme.com </p>
+
+
+      </div>
+
+
+      <div>
+        <h5 class="font-20 col-white">Quick links</h5>
+        <ul class="footer_ul_amrc">
+          <li><a href="#">Image Rectoucing</a></li>
+          <li><a href="#">Clipping Path</a></li>
+          <li><a href="#">Hollow Man Montage</a></li>
+          <li><a href="#">Ebay & Amazon</a></li>
+          <li><a href="#">Hair Masking/Clipping</a></li>
+          <li><a href="#">Image Cropping</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5 class="font-20 col-white">Follow us</h5>
+
+        <ul class="footer_ul2_amrc">
+          <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a>
+            <p>Lorem Ipsum is simply dummy..<a href="#">facebook</a></p>
+          </li>
+          <li><a href="#"><i class="fab fa-facebook fleft padding-right"></i> </a>
+            <p>Lorem Ipsum is simply dummy..<a href="#">instrgram</a></p>
+          </li>
+          <li><a href="#"><i class="fab fa-instagram fleft padding-right"></i> </a>
+            <p>Lorem Ipsum is simply dummy..<a href="#">linkedin</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+
+    <div class="footer-container">
+      <ul class="foote_bottom_ul_amrc">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="post.html">Post</a></li>
+        <li><a href="archive.html">Archive</a></li>
+        <li><a href="sss.html">Contact</a></li>
+      </ul>
+      <p class="text-center">Copyright @2023 | Designed With by <a class="underline col-white" href="#">Your Company
+          Name</a></p>
+
+      <ul class="social_footer_ul">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+
+  </footer>
+</body>
+
+</html>
